@@ -1,0 +1,592 @@
+.clearfix{
+    clear:both;
+}
+#top_nav{
+
+    color:white;
+    height: 33.5px;
+}
+#nav_menu{
+    
+      margin:none;
+      margin-left:7.5%;
+       letter-spacing:1px;
+      font-size:11.5px;
+     
+      
+      
+}
+#nav_menu li a{
+      color:white;
+      border-right:1px solid white;
+      height:7px;
+     line-height:7px;     
+}
+
+#nav_menu li a:hover{
+    color: rgba(24, 201, 210, 0.84);
+}
+#call{
+
+     padding-right:7%;
+}
+#call li a{
+    color:white;
+      line-height:7px;
+      font-size:11.3px;
+    
+   
+}
+.navbar-header h1{
+ font-size: 2.7em;
+ font-weight:400;
+ color: #18C9D2;
+ font-family: 'Roboto Slab', serif;
+}
+.navbar-header h1 span{
+      color: #333;
+}
+ 
+ .h_nav h4{
+     font-size:1em;
+     margin-bottom: 4%;
+     border-bottom:1px solid black;
+     line-height: 1.8em;
+     text-transform: uppercase;
+ }
+ .h_nav  ul li{
+     display:block;
+     margin:4%;
+ }
+ .h_nav ul li a{
+     display:block;
+     text-transform: uppercase;
+     font-size:0.95em;
+     line-height:1.8em;
+     color:#555;
+ }
+
+ .jacket_desc{
+     float:right;
+     width:28%;
+ }
+ .title{
+     font-size: 1.25em;
+     display:block;
+     font-family:'Roboto Slab', serif;
+ }
+
+ .fashion_side h3{
+     text-align:center;
+     font-size:2.2em;
+     font-weight:570;
+     font-family: 'Roboto Slab', serif;
+     letter-spacing: 0.6px;
+     line-height:1px;
+     padding-bottom:5%;
+
+ }
+  figure{
+     background-color:  rgba(24, 201, 210, 0.84);
+     width:100%;
+     height:100%;
+    margin-bottom:30%;
+    
+ }
+ figure img{
+      opacity:0.4;
+ }
+ figcaption{
+     position:absolute;
+     top:30px;
+     bottom:30px;
+     left:30px;
+     right:30px;
+        padding:20%;
+    
+     
+ }
+  figcaption ::before{
+       border-top: 1px solid white;
+        border-bottom: 1px solid white;
+
+  }
+   figcaption ::after{
+       border-left: 1px solid white;
+        border-right: 1px solid white;
+
+  }
+
+ figcaption h4{
+       font-family: 'Roboto Slab', serif;
+       font-size:1.7em;
+       font-weight:500;
+       color:white;
+ }
+
+ figcaption p{
+    
+ padding:20%;
+
+ }
+
+ figcaption p a{
+     padding: 8px 15px;
+      background-color:white;
+      text-transform:uppercase;
+      font-size:1.15em;
+      font-weight:400;
+      color:#333;
+ }
+
+
+ #products  li a{
+     font-size:1.2em;
+     font-family: 'Roboto Slab', serif;
+     color:black;
+ }
+  #products{
+     
+     padding-left: 30%;
+
+  }
+  #products li a:hover{
+     background-color: rgba(24, 201, 210, 0.84);
+ }
+
+ .product_view{
+     padding:4%;
+     
+ }
+ .product_view h3{
+     font-size:1.4em;
+     font-family: 'Roboto Slab', serif;
+ }
+  .product_view h4{
+     font-size:1.4em;
+     font-family: 'Roboto Slab', serif;
+     color: rgba(24, 201, 210, 0.84);
+     text-align:center;
+ }
+ #single_product{
+  border:1px solid #e0e0e0;
+  margin-right:3.5%;
+ }
+ #single_product img{
+     padding:5% 1% 5% 1%;
+ }
+ .shop_1 {
+     top:38%;
+     left:36%;
+     position:absolute;
+     font-size:1.04em;
+     font-weight:400;
+    
+     display:none;
+     
+ }
+
+ .shop_1 a{
+     padding:20% 40% 20% 40%;
+ 
+ }
+ #single_product:hover .shop_1{
+ 
+     display:block;
+    
+ }
+  #single_product:hover .shop_1 a{
+     background-color:rgba(24, 201, 210, 0.84);
+    color:white;
+   
+   
+ }
+ .middle_content{
+     padding-top:4.5em;
+    
+ }
+ .middle_side{
+     background: url(../images/middle.jpg) no-repeat;
+     min-height:410px;
+     background-size:cover;
+     
+ }
+ .middle_side h3{
+     color:white;
+     font-size:2.6em;
+     font-weight:500;
+     font-family: 'Roboto Slab', serif;
+    
+ }
+  .middle_side p{
+     color:rgba(24, 201, 210, 0.84);
+     font-size:1.5em;
+     font-weight:500;
+  
+ }
+ .middle_text{
+     text-align:center;
+     padding-top:10em;
+ }
+ .client_side{
+     padding: 4em 0 4em 0;
+ }
+
+  .tp--slider-multiple .item{
+     max-height:40px; 
+     background:black;
+     width:auto;
+     background-color:transparent;
+ }
+   .tp--slider-multiple .item img{
+     max-height:30px; 
+     -webkit-filter:opacity(70%);
+     -webkit-filter:contrast(150%);
+      width:90px;
+ }
+ 
+ .clients{
+      max-height:40px; 
+     background:black;
+     width:auto;
+      -webkit-filter:opacity(90%);
+       
+ }
+ .footer1 p a{
+     text-transform:capitalize;
+     font-size:1em;
+     color:black
+ }
+ .footer_col{
+     width:20%;
+    
+ }
+ .footer_col p a{
+     color:#787878;
+ }
+ .footer2{
+     border-left:1px solid #484848;
+     
+ }
+ .footer2 hr{
+     
+     margin-left:10%;
+     
+ }
+ .footer2 h4,
+ .footer2 p a{
+     padding-left:10%;
+ }
+ #footer_nav{
+     height:60px;
+ }
+ .social{
+     padding-left:43%;
+     padding-top:10px;
+
+ }
+ .social li{
+     list-style: none;
+     display:inline-block;
+     
+    
+     
+ }
+ .social li a{
+     width:45px !important;
+     height:45px !important;
+     display:inline-block;
+      overflow:hidden;
+     position:relative;
+    
+    
+ }
+ .social li .soc1{
+     background:url(../images/social-1.png) 0 100% no-repeat;
+ }
+  .social li .soc2{
+     background:url(../images/social-2.png) 0 100% no-repeat;
+ }
+  .social li .soc3{
+     background:url(../images/social-3.png) 0 100% no-repeat;
+ }
+ .social li .soc1:hover, .social li .soc2:hover, .social li .soc2:hover{
+     background-position: 0 0%;
+ }
+
+ /* Tablet */
+  @media(max-width: 1024px){
+    
+
+  }
+ @media(max-width: 768px){
+     .fashion{
+         
+     }
+     .fashion_side h3{
+     text-align:center;
+     font-size:1.5em;
+     font-weight:570;
+     font-family: 'Roboto Slab', serif;
+     letter-spacing: 0.6px;
+     line-height:1px;
+     padding-bottom:5%;
+
+ }
+  figure{
+     background-color:  rgba(24, 201, 210, 0.84);
+     width:50%;
+     height:50%;
+    margin-bottom:30%;
+    
+ }
+ figure img{
+      opacity:0.4;
+ }
+ figcaption{
+     position:absolute;
+     top:20px;
+     bottom:20px;
+     left:20px;
+     right:20px;
+        padding:10%;
+    
+     
+ }
+  figcaption ::before{
+       border-top: 1px solid white;
+        border-bottom: 1px solid white;
+
+  }
+   figcaption ::after{
+       border-left: 1px solid white;
+        border-right: 1px solid white;
+
+  }
+
+ figcaption h4{
+       font-family: 'Roboto Slab', serif;
+       font-size:1.7em;
+       font-weight:500;
+       color:white;
+ }
+
+ figcaption p{
+    
+ padding:10%;
+
+ }
+
+ figcaption p a{
+     padding: 8px 15px;
+      background-color:white;
+      text-transform:uppercase;
+      font-size:1.15em;
+      font-weight:400;
+      color:#333;
+ }
+
+
+.product_view{
+     padding:4%;
+     
+ }
+ .product_view h3{
+     font-size:1.4em;
+     font-family: 'Roboto Slab', serif;
+ }
+  .product_view h4{
+     font-size:1.4em;
+     font-family: 'Roboto Slab', serif;
+     color: rgba(24, 201, 210, 0.84);
+       text-align:center;
+   
+ }
+ #single_product{
+  border:1px solid #e0e0e0;
+  margin-left:20%;
+
+ }
+ #single_product img{
+     padding:5% 1% 5% 1%;
+   
+    
+ }
+ .shop_1 {
+     top:33%;
+     left:16%;
+     position:absolute;
+     font-size:1.04em;
+     font-weight:400;
+    
+     display:none;
+     
+ }
+
+ .shop_1 a{
+     padding:20% 40% 20% 40%;
+ 
+ }
+
+
+ .footer_col{
+     width:50%;
+     float:left;
+     padding-bottom:7%;
+    
+ }
+ .footer2{
+ border:none;
+
+ }
+ .footer2 h4, 
+ footer2 p a{
+     padding-left:0%;
+ }
+ 
+
+ }
+
+ /*mobile settings */
+
+ @media only screen and (max-width:480px){
+
+     .navbar-header h1{
+ font-size: 2em;
+
+}
+ 
+ .col-md-6{
+     width:100%;
+ }
+ .col-md-6 img{
+    
+     width:50%;
+ }
+ #bags, #glass{
+     width:50%;
+ }
+ #bags img, #glass img{
+     width:50%;
+ }
+
+ #top_nav{
+
+    color:black;
+    height: 100%;
+}
+ #nav_menu{
+    
+      margin:none;
+      margin-left:none;
+       letter-spacing:1px;
+      font-size:7.5px;
+           
+}
+#nav_menu li a{
+      color:white;
+      border-right:1px solid white;
+      height:7px;
+     line-height:7px;
+     float:left; 
+}
+#call{
+
+     padding-right:7%;
+}
+#call li a{
+    color:white;
+      line-height:7px;
+      font-size:7.3px;
+    
+   
+}
+.fashion{
+    width:100%;
+}
+ .fashion_side h3{
+     text-align:center;
+     font-size:1.5em;
+     font-weight:570;
+     font-family: 'Roboto Slab', serif;
+     letter-spacing: 0.6px;
+     line-height:1px;
+     padding-bottom:5%;
+
+ }
+ figcaption{
+     position:absolute;
+     top:20px;
+     bottom:20px;
+     left:20px;
+     right:20px;
+        padding:20%;
+    
+     
+ }
+  .middle_content{
+     padding-top:5%;
+    
+    
+ }
+.middle_side{
+     background: url(../images/middle.jpg) no-repeat;
+     min-height:15%;
+     background-size:cover;
+     
+ }
+ .middle_side h3{
+     color:white;
+     font-size:1.35em;
+     font-weight:500;
+     font-family: 'Roboto Slab', serif;
+     
+    
+ }
+  .middle_side p{
+     color:rgba(24, 201, 210, 0.84);
+     font-size:1em;
+     font-weight:500;
+  
+ }
+  .middle_text{
+     text-align:center;
+     padding-top:4.5em;
+     padding-bottom:1.5em;
+ }
+  .client_side{
+     padding: 2em 0 2em 0;
+ }
+
+
+   .tp--slider-multiple .item img{
+     max-height:30px; 
+      width:auto;
+ }
+
+   .footer_col{
+     width:100%;
+     padding-bottom:7%;
+    
+ }
+  .footer2{
+     border-left:none;
+     
+ }
+  .footer2 hr{
+     
+     margin-left:0%;
+     
+ }
+ .footer2 h4,
+ .footer2 p a{
+     padding-left:0%;
+ }
+
+ .social{
+     padding-left:30%;
+     padding-top:10px;
+
+ }
+ 
+ }
